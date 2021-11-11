@@ -629,3 +629,28 @@ a {
 a {
   text-decoration: none;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #2b2b2b;
+    color: #fff;
+  }
+
+  .mid-col .section.work .accordion .item .content .slideshow{
+    background: #2b2b2b;
+
+  }
+  .right-col{
+    background-color: #2b2b2b;
+    border-left-color: #fff;
+  }
+  .mid-col .section.work .accordion .item{
+    border-bottom-color: #fff;
+  }
+  .mid-col .section.work .accordion .item .content .slideshow .slides-indicator hr{
+    border-left-color: #fff;
+  }
+  .mid-col .section.work .accordion .item .content .slideshow .slides-indicator hr.active{
+    border-left-color: #7b7b7b;
+  }
+}
